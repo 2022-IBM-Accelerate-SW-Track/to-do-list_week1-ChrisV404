@@ -79,7 +79,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
 2. Navigate to `src/pages/Home.js`. Import `AddTodo.js`, `todos.js`, and `Home.css` files. By now you should be familiar with imports
 3. In Home.js file:
   + Inside the constructor(), create a list with the name `todos`
-  + Inside the render() function replace the `p` tag with both Todos and AddTodo components like so:
+  + Inside the render() function replace the `p` tag with both Todos and AddTodo components like so:    
     + `<Todos todos={make your change } />`. Hint: return current todo list state. Remember to use the `this` keyword
     + `<AddTodo addTodo={make your change} />`. Hint: call addTodo() function. Remember to use the `this` keyword
 
